@@ -1,0 +1,69 @@
+<HTML>
+    <HEAD>
+        <TITLE>
+            Servidor JAVA
+        </TITLE>
+        <META NAME='viewport' CONTENT='width=device-width,initial-scale=1'>
+        <SCRIPT TYPE='text/javascript'>
+            function sumar(){
+                var n1=parseFloat(document.getElementById('n1').value);
+                var n2=parseFloat(document.getElementById('n2').value);
+                var resultado=document.getElementById('resultado');
+                if(!(isNaN(n1))&&!(isNaN(n2))){
+                    resultado.value=n1+n2;
+                }
+                else{
+                    resultado.value='Datos Invalidos';
+                }
+            }
+            function restar(){
+                var n1=parseFloat(document.getElementById('n1').value);
+                var n2=parseFloat(document.getElementById('n2').value);
+                var resultado=document.getElementById('resultado');
+                if(!(isNaN(n1))&&!(isNaN(n2))){
+                    resultado.value=n1-n2;
+                }
+                else{
+                    resultado.value='Datos Invalidos';
+                }
+            }
+            function mutiplicar(){
+                var n1=parseFloat(document.getElementById('n1').value);
+                var n2=parseFloat(document.getElementById('n2').value);
+                var resultado=document.getElementById('resultado');
+                if(!(isNaN(n1))&&!(isNaN(n2))){
+                    resultado.value=n1*n2;
+                }
+                else{
+                    resultado.value='Datos Invalidos';
+                }
+            }
+            function dividir(){
+                var n1=parseFloat(document.getElementById('n1').value);
+                var n2=parseFloat(document.getElementById('n2').value); 
+                var resultado=document.getElementById('resultado');
+                if(!(isNaN(n1))&&!(isNaN(n2))){
+                    resultado.value=n1/n2;
+                }
+                else{
+                    resultado.value='Datos Invalidos';
+                }
+            }
+        </SCRIPT>
+    </HEAD>
+    <BODY BGCOLOR='black' TEXT='lawngreen'>
+        <H3>Ejemplo</H3>
+        <HR>
+        <FORM>
+            <CENTER>
+                operador: <INPUT TYPE='text' ID='n1'><BR><BR>
+                operador: <INPUT TYPE='text' ID='n2'><BR><BR>
+                <INPUT TYPE='button' onclick='sumar()' VALUE='sumar'> 
+                <INPUT TYPE='button' onclick='restar()' VALUE='restar'> 
+                <INPUT TYPE='button' onclick='mutiplicar()' VALUE='mutiplicar'> 
+                <INPUT TYPE='button' onclick='dividir()' VALUE='dividir'><BR><BR>
+                resultado: <INPUT TYPE='text' ID='resultado'><BR><BR>
+            </CENTER>
+        </FORM>
+    </BODY>
+</HTML>
