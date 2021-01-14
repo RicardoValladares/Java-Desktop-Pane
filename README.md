@@ -14,7 +14,7 @@ compilar.bat
 
 cd java
 
-compilar.sh
+./compilar.sh
 
 
 
