@@ -8,13 +8,13 @@ calculadora, chat, solitario, consola de comandos, visor de imagenes, navegador 
 
 cd java
 
-compilar.bat
+start compilar.bat
 
 ## Linux: 
 
 cd java
 
-./compilar.sh
+sh compilar.sh
 
 
 
