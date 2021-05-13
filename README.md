@@ -5,17 +5,16 @@ calculadora, chat, solitario, consola de comandos, visor de imagenes, navegador 
 
 
 ## Windows: 
-
+~~~
 cd java
-
 start compilar.bat
+~~~
 
 ## Linux: 
-
+~~~
 cd java
-
 sh compilar.sh
-
+~~~
 
 
 https://www.youtube.com/watch?v=cfiyu9p5dlU&t=120s&list=PLYGa2mtIQCOJefljdiRh_yxsmdVrRA2nS&index=3
