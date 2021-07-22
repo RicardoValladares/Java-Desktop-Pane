@@ -5,7 +5,7 @@ calculadora, chat, solitario, consola de comandos, visor de imagenes, navegador 
 
 
 ## Windows: 
-```bash
+```batch
 cd java
 start compilar.bat
 ```
