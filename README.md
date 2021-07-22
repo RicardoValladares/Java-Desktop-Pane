@@ -11,7 +11,7 @@ start compilar.bat
 ```
 
 ## Linux: 
-```bash
+```shell
 cd java
 sh compilar.sh
 ```
