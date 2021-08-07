@@ -8,7 +8,6 @@ import sistema.consola;
 import sistema.pantalla;
 import sistema.programas.*;
 import sistema.juegos.solitario;
-
 public class escritorio extends JFrame implements ActionListener{
 	/*declaramos los objetos*/
 	public JDesktopPane desktop;
