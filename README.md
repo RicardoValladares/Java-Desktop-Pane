@@ -5,15 +5,15 @@ calculadora, chat, solitario, consola de comandos, visor de imagenes, navegador 
 
 
 ## Windows: 
-```cmd
-C:\>cd java
-C:\>start compilar.bat
+```batch
+cd java
+start compilar.bat
 ```
 
 ## Linux: 
-```{r, engine='bash', code_block_name} ...
-ryck@code:~$ cd java
-ryck@code:~$ sh compilar.sh
+```bash
+cd java
+sh compilar.sh
 ```
 
 
