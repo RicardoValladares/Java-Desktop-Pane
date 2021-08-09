@@ -11,7 +11,7 @@ C:\>start compilar.bat
 ```
 
 ## Linux: 
-```console
+```{r, engine='bash', code_block_name} ...
 ryck@code:~$ cd java
 ryck@code:~$ sh compilar.sh
 ```
