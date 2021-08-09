@@ -6,8 +6,8 @@ calculadora, chat, solitario, consola de comandos, visor de imagenes, navegador 
 
 ## Windows: 
 ```batch
-cd java
-start compilar.bat
+C:\>cd java
+C:\>start compilar.bat
 ```
 
 ## Linux: 
