@@ -293,3 +293,5 @@ public class escritorio extends JFrame implements ActionListener{
 		formulario.setVisible(true);
 	}
 }
+
+
